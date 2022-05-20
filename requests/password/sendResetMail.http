@@ -1,0 +1,8 @@
+POST /password/forgot HTTP/1.1
+Content-Type: application/json
+Host: localhost:3333
+Content-Length: 29
+
+{
+	"email": "aaa@email.com"
+}
